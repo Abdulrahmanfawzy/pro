@@ -26,11 +26,11 @@ e.preventDefault();
 function check1(){
     if(select2.style.display == "none"){
         if(number.value == 30006011609093 && password.value == 1234 && select.value != "none") {
-            window.location = "http://127.0.0.1:5500/page/index.html";  
+            window.location = "../page/index.html";  
         }
     }else if(select2.style.display == "block"){
         if(number.value == 30006011609093 && password.value == 1234 && select.value != "none" && select2.value != "none") {
-            window.location = "http://127.0.0.1:5500/page/index.html";  
+            window.location = "../page/index.html";  
         }
     }
 }
@@ -39,11 +39,11 @@ check1();
 function check2(){
     if(select2.style.display == "none"){
         if(number.value == 44 && password.value == 44 && select.value != "none" ) {
-            window.location = "http://127.0.0.1:5500/page2/index.html";  
+            window.location = "../page2/index.html";  
         }
     }else if(select2.style.display == "block"){
         if(number.value == 44 && password.value == 44 && select.value != "none" && select2.value != "none") {
-            window.location = "http://127.0.0.1:5500/page2/index.html";   
+            window.location = "../page2/index.html";   
         }
     }
 }
@@ -52,11 +52,11 @@ check2();
 function check3(){
     if(select2.style.display == "none"){
         if(number.value == 33 && password.value == 33 && select.value != "none" ) {
-            window.location = "http://127.0.0.1:5500/page3/index.html";  
+            window.location = "../page3/index.html";  
         }
     }else if(select2.style.display == "block"){
         if(number.value == 33 && password.value == 33 && select.value != "none" && select2.value != "none") {
-            window.location = "http://127.0.0.1:5500/page3/index.html";   
+            window.location = "../page3/index.html";   
         }
     }else{
         if(number.value == "" || password.value == ""){
